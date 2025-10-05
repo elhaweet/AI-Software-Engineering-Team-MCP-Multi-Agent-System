@@ -1,0 +1,13 @@
+[project]
+name = "mcp-remote"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi>=0.115.12",
+    "mcp[cli]>=1.9.3",
+    "python-dotenv>=1.1.0",
+    "tavily-python>=0.7.7",
+    "google-generativeai>=0.8.0",
+]
